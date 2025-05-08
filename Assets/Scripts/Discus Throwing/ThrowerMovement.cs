@@ -13,7 +13,7 @@ public class ThrowerMovement : MonoBehaviour
     {
         ringPosition = boundaryRing.transform.position;
         ringRadius = boundaryRing.Radius;
-        throwerRadius = transform.GetChild(0).transform.localScale.x * 0.5f;
+        throwerRadius = transform.GetChild(0).localScale.x * 0.5f;
     }
 
     private void Update()
